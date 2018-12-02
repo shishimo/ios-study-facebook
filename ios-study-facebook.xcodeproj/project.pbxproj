@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26253CE6796CE9B8C9361D9B /* Pods_ios_study_facebook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5F12D0E0E231F24EEF9D2D /* Pods_ios_study_facebook.framework */; };
+		6C7DFF7EE07DF2A1404660EC /* Pods_ios_study_facebookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8205A61C7D8A492C7A333EBD /* Pods_ios_study_facebookUITests.framework */; };
+		8320D9DADA68DD16A0AD81E3 /* Pods_ios_study_facebookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41DFE5DB8445DDBBE49F9AEB /* Pods_ios_study_facebookTests.framework */; };
 		C8FD9F3221B3BF2600DB9466 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD9F3121B3BF2600DB9466 /* AppDelegate.swift */; };
 		C8FD9F3421B3BF2600DB9466 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8FD9F3321B3BF2600DB9466 /* ViewController.swift */; };
 		C8FD9F3721B3BF2600DB9466 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8FD9F3521B3BF2600DB9466 /* Main.storyboard */; };
@@ -34,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3169ECD9594F25B28CB1379F /* Pods-ios-study-facebookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-facebookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-facebookUITests/Pods-ios-study-facebookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41DFE5DB8445DDBBE49F9AEB /* Pods_ios_study_facebookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_study_facebookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5F12D0E0E231F24EEF9D2D /* Pods_ios_study_facebook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_study_facebook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E5406E01920B65B328EF6B2 /* Pods-ios-study-facebookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-facebookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-facebookUITests/Pods-ios-study-facebookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73EBBDFB799BD93169C81B89 /* Pods-ios-study-facebook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-facebook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-facebook/Pods-ios-study-facebook.debug.xcconfig"; sourceTree = "<group>"; };
+		8205A61C7D8A492C7A333EBD /* Pods_ios_study_facebookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_study_facebookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55254963A10FA2D2FFE0593 /* Pods-ios-study-facebookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-facebookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-facebookTests/Pods-ios-study-facebookTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8FD9F2E21B3BF2600DB9466 /* ios-study-facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ios-study-facebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FD9F3121B3BF2600DB9466 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8FD9F3321B3BF2600DB9466 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +57,8 @@
 		C8FD9F4D21B3BF2700DB9466 /* ios-study-facebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-study-facebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FD9F5121B3BF2700DB9466 /* ios_study_facebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_study_facebookUITests.swift; sourceTree = "<group>"; };
 		C8FD9F5321B3BF2700DB9466 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11C7E6F6C5EB53B1796D2AE /* Pods-ios-study-facebookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-facebookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-facebookTests/Pods-ios-study-facebookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D748B6E41ED2E87D7DF2025A /* Pods-ios-study-facebook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ios-study-facebook.release.xcconfig"; path = "Pods/Target Support Files/Pods-ios-study-facebook/Pods-ios-study-facebook.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26253CE6796CE9B8C9361D9B /* Pods_ios_study_facebook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8320D9DADA68DD16A0AD81E3 /* Pods_ios_study_facebookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7DFF7EE07DF2A1404660EC /* Pods_ios_study_facebookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AC36351DA155ACA963B6CF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73EBBDFB799BD93169C81B89 /* Pods-ios-study-facebook.debug.xcconfig */,
+				D748B6E41ED2E87D7DF2025A /* Pods-ios-study-facebook.release.xcconfig */,
+				D11C7E6F6C5EB53B1796D2AE /* Pods-ios-study-facebookTests.debug.xcconfig */,
+				C55254963A10FA2D2FFE0593 /* Pods-ios-study-facebookTests.release.xcconfig */,
+				3169ECD9594F25B28CB1379F /* Pods-ios-study-facebookUITests.debug.xcconfig */,
+				5E5406E01920B65B328EF6B2 /* Pods-ios-study-facebookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C8FD9F2521B3BF2600DB9466 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +109,8 @@
 				C8FD9F4521B3BF2700DB9466 /* ios-study-facebookTests */,
 				C8FD9F5021B3BF2700DB9466 /* ios-study-facebookUITests */,
 				C8FD9F2F21B3BF2600DB9466 /* Products */,
+				3AC36351DA155ACA963B6CF2 /* Pods */,
+				DABAB2AE938027BB724D0E1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +155,16 @@
 			path = "ios-study-facebookUITests";
 			sourceTree = "<group>";
 		};
+		DABAB2AE938027BB724D0E1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5F12D0E0E231F24EEF9D2D /* Pods_ios_study_facebook.framework */,
+				41DFE5DB8445DDBBE49F9AEB /* Pods_ios_study_facebookTests.framework */,
+				8205A61C7D8A492C7A333EBD /* Pods_ios_study_facebookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8FD9F5621B3BF2700DB9466 /* Build configuration list for PBXNativeTarget "ios-study-facebook" */;
 			buildPhases = (
+				1ADA02622D3D86FCE19990BC /* [CP] Check Pods Manifest.lock */,
 				C8FD9F2A21B3BF2600DB9466 /* Sources */,
 				C8FD9F2B21B3BF2600DB9466 /* Frameworks */,
 				C8FD9F2C21B3BF2600DB9466 /* Resources */,
+				936FC5840D7DA64F77ED0AFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8FD9F5921B3BF2700DB9466 /* Build configuration list for PBXNativeTarget "ios-study-facebookTests" */;
 			buildPhases = (
+				7B45F9A89F22F966DE4311BD /* [CP] Check Pods Manifest.lock */,
 				C8FD9F3E21B3BF2700DB9466 /* Sources */,
 				C8FD9F3F21B3BF2700DB9466 /* Frameworks */,
 				C8FD9F4021B3BF2700DB9466 /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8FD9F5C21B3BF2700DB9466 /* Build configuration list for PBXNativeTarget "ios-study-facebookUITests" */;
 			buildPhases = (
+				E7BEB6BBFE55F0136722E3DF /* [CP] Check Pods Manifest.lock */,
 				C8FD9F4921B3BF2700DB9466 /* Sources */,
 				C8FD9F4A21B3BF2700DB9466 /* Frameworks */,
 				C8FD9F4B21B3BF2700DB9466 /* Resources */,
@@ -250,6 +294,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ADA02622D3D86FCE19990BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-study-facebook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B45F9A89F22F966DE4311BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-study-facebookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		936FC5840D7DA64F77ED0AFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ios-study-facebook/Pods-ios-study-facebook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ios-study-facebook/Pods-ios-study-facebook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BEB6BBFE55F0136722E3DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ios-study-facebookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C8FD9F2A21B3BF2600DB9466 /* Sources */ = {
@@ -430,6 +567,7 @@
 		};
 		C8FD9F5721B3BF2700DB9466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73EBBDFB799BD93169C81B89 /* Pods-ios-study-facebook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +586,7 @@
 		};
 		C8FD9F5821B3BF2700DB9466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D748B6E41ED2E87D7DF2025A /* Pods-ios-study-facebook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +605,7 @@
 		};
 		C8FD9F5A21B3BF2700DB9466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D11C7E6F6C5EB53B1796D2AE /* Pods-ios-study-facebookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +627,7 @@
 		};
 		C8FD9F5B21B3BF2700DB9466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55254963A10FA2D2FFE0593 /* Pods-ios-study-facebookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +649,7 @@
 		};
 		C8FD9F5D21B3BF2700DB9466 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3169ECD9594F25B28CB1379F /* Pods-ios-study-facebookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +670,7 @@
 		};
 		C8FD9F5E21B3BF2700DB9466 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5406E01920B65B328EF6B2 /* Pods-ios-study-facebookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
